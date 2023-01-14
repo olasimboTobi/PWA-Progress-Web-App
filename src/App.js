@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { ToastContainer } from "react-toastify";
+// import Footer from "./Components/Footer/Footer";
+// import Navbar from "./Components/Nav/Navbar";
+// import AboutUs from "./Pages/AboutUs/AboutUs";
+// import OurProducts from "./Pages/Products/OurProducts";
+// import HomePageContents from "./Pages/HomePage/HomePageContents";
+// import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+// import "react-toastify/dist/ReactToastify.css";
 
 function App() {
+  // let navigate = useNavigate();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ToastContainer
+        position="top-center"
+        className="w-full"
+        style={{ width: "600px" }}
+      />
+      
+      <p>Hello Jupit Technology</p>
+    </>
   );
 }
 
