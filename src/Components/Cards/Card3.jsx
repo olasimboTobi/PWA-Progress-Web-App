@@ -13,4 +13,4 @@ const Card3 = ({id,name,title,photo,description}) => {
   )
 }
 
-export default Card3
+export default Card3;
