@@ -25,8 +25,8 @@ function Navbar() {
                 </ul>
             </div>
             <div className="hidden md:flex justify-between  w-[15%]">
-                <button className="border-[1px] px-4 py-2 border-[#8D8EC9]  rounded-md bg-white text-[#4747A7] text-[0.9em]">Sign In</button>
-                <button className="border-[1px] px-4 py-2 border-[#8D8EC9]  rounded-md bg-white text-[0.9em] text-[#4747A7] bg-[#F4A03F]">Register</button>
+                <button className="border-[1px] px-4 py-2 border-[#8D8EC9]  rounded-md bg-white text-[#4747A7] text-[0.9em] cursor-pointer">Sign In</button>
+                <button className="border-[1px] px-4 py-2 border-[#8D8EC9]  rounded-md bg-white text-[0.9em] text-[#4747A7] bg-[#F4A03F] cursor-pointer">Register</button>
             </div>
             <div className="md:hidden mr-4" onClick={handleClick}>
                 {!nav ? <MenuIcon className="w-5"/> : < XIcon className="w-5"/>}

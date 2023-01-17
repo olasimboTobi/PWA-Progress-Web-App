@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        "aboutImage2": "url('/src/Components/Assets/Group 37432.svg')",
+        "chatBg": "url('/src/Components/Assets/trabajoequipoteam-4200837_1920 3.svg')",
       },
       colors: {
       

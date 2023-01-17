@@ -2,6 +2,8 @@ import React from 'react'
 import Home from "../Home/Home";
 import WhatWeOffer from "../WhatWeOffer/WhatWeOffer";
 import { motion } from "framer-motion";
+import Services from '../Services/Services';
+import WhatUsersSay from '../WhatUsersSay/WhatUsersSay';
 
 const HomePageContents = () => {
   return (
@@ -12,8 +14,9 @@ const HomePageContents = () => {
       transition={{ duration: 1.5 }}
       key={1}
     >
-      {/* <WhatWeOffer/> */}
-  
+      <WhatWeOffer/>
+      <Services/>
+      <WhatUsersSay/>
     </motion.div>
   </>
   )
