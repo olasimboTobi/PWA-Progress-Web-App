@@ -52,12 +52,12 @@ const Services = () => {
       key={1}
     >
         <div className="w-[85%] mx-auto text-center ">
-            <h1 className="text-[60px] mt-8 text-[#090931] font-bold">Best services that works <br/> for you</h1>
+            <h1 className="text-[60px]  md:text[40px] xl:text-[60px] mt-8 text-[#090931] font-bold">Best services that works <br/> for you</h1>
             <p className="w-[75%] mx-auto text-[24px] font-medium text-[#777777] mt-6">We provide a wide range of services to our users. Take a look at few of the<br/> solutions to expect from us.</p>
             <div className="flex items-center justify-between w-[80%] flex-wrap  mx-auto mb-12">
                 {elementOffer}
             </div>
-            <div className="w-[90%] mx-auto bg-[#EDEDF6] h-[463px] px-8 py-12 text-start border-none rounded-lg">
+            <div className="w-[90%] mx-auto bg-[#EDEDF6] h-[463px] md:h-[380px] lg:h-[390px] xl:h-[463px] px-8 py-12 text-start border-none rounded-lg">
                 <div className='font-semibold'>We make crypto easy</div>
                 <p className='w-[47%] text-[14px] mt-4'>
                     We make sure that every cryptocurrency payment and transaction
@@ -89,7 +89,7 @@ const Services = () => {
                         </div>
                         <p className="text-[16px]">Real Time Value</p>
                     </div>
-                    <div className='absolute top-[-180px]   right-0'>
+                    <div className='absolute top-[-180px] right-0 md:w-[60%] md:right-0 md:top-[-24px] lg:w-[70%] lg:right-0 lg:top-[-100px]  xl:w-[80%] xl:right-0 xl:top-[-180px]'>
                         <img src={phone} alt="phone"/>
                     </div>
                 </div>

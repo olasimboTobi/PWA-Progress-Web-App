@@ -8,7 +8,7 @@ import {BsArrowRightShort} from "react-icons/bs"
 const Card1 = ({id, title, description1, description2}) =>{
 
    return (
-    <div className={title !== "Customer First" ? "w-[24%] h-[314px] py-6 bg-white border-none rounded-lg" : "w-[24%] h-[314px] py-6 bg-gradient-to-r from-[#1C1D93] to-[#3A3B8F] border-none rounded-lg" }>
+    <div className={title !== "Customer First" ? " w-[24%] h-[314px] py-6 bg-white border-none rounded-lg" : "w-[24%] h-[314px] py-6 bg-gradient-to-r from-[#1C1D93] to-[#3A3B8F] border-none rounded-lg" }>
         <div className="flex flex-col items-center justify-between  w-[90%] mx-auto h-full">
             
             {title !== "Customer First" ?
@@ -34,13 +34,13 @@ const Card1 = ({id, title, description1, description2}) =>{
             </div> 
             }
             
-            <p className={title !== "Customer First" ? "justify-self-start w-full text-[32px] text-center" : "justify-self-start w-full text-[32px] text-white text-center"}>{title}</p>
+            <p className={title !== "Customer First" ? "justify-self-start w-full text-[32px] text-center md:text-[20px] md:mt-[0.5em]  lg:text-[25px] xl:mt-[0.2em] xl:text-[32px]" : "justify-self-start w-full text-[32px] text-white text-center md:text-[20px] md:mt-[0.5em] lg:text-[25px] xl:text-[32px] xl:mt-[0.2em]"}>{title}</p>
 
-            <p className={title !== "Customer First" ? 'justify-self-start w-full text-[14.7px]' : 'justify-self-start w-full text-[14.7px] text-white'}>{description1}</p>
-            <p className={title !== "Customer First" ? ' w-full text-[14.7px] text-center mt-[-18px]' : ' w-full text-[14.7px] text-white text-center mt-[-18px]'}>{description2}</p>
+            <p className={title !== "Customer First" ? 'justify-self-start w-full text-[14.7px] md:text-center md:text-[0.68rem] lg:text-center lg:text-[0.7rem] xl:text-start xl:text-[14.7px]' : 'justify-self-start w-full text-[14.7px] text-white md:text-center md:text-[0.68rem] lg:text-center lg:text-[0.7rem] xl:text-start xl:text-[14.7px]'}>{description1}</p>
+            <p className={title !== "Customer First" ? ' w-full text-[14.7px] text-center mt-[-18px] md:text-center md:text-[0.68rem] lg:text-center lg:text-[0.7rem] xl:xl:text-center xl:text-[14.7px]' : ' w-full text-[14.7px] text-white text-center mt-[-18px] md:text-center md:text-[0.68rem]  lg:text-center lg:text-[0.7rem] xl:text-center xl:text-[14.7px]'}>{description2}</p>
             <div className="flex justify-center items-center">
-                <p className={title !== "Customer First" ? "text-[16px] text-[#1C1D93]" : "text-[16px] text-white"}>Get Started</p>
-                <p><BsArrowRightShort className={title !== "Customer First" ? 'text-[#1C1D93] text-[30px]' : 'text-[#EFEFEF] text-[30px]'}/></p>
+                <p className={title !== "Customer First" ? "text-[16px] text-[#1C1D93] md:text-[14px] xl:text-[16px]" : "text-[16px] md:text-[14px] xl:text-[16px] text-white"}>Get Started</p>
+                <p><BsArrowRightShort className={title !== "Customer First" ? 'text-[#1C1D93] text-[30px] md:[26px] xl:text-[30px]' : 'text-[#EFEFEF] text-[30px] md:[26px] xl:text-[30px]'}/></p>
             </div>
         </div> 
     </div>

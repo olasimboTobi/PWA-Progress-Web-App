@@ -45,13 +45,13 @@ const WhatWeOffer = () => {
   ))
 
   return (
-    <div className="w-full bg-[#F5F5F5]  h-[465px] relative">
-       <div  className="flex justify-between items-center w-[85%] mx-auto h-full ">
+    <div className="flex w-full bg-[#F5F5F5] items-center  min-h-[465px] relative">
+       <div  className="flex justify-between items-center flex-wrap w-[85%] md:w[85%] lg:w-[85%]  mx-auto h-full ">
           {elementOffer}
-          <div className='absolute left-[40px] bottom-3 w-[56.7px] h-[42.5px]'>
+          <div className='absolute left-[3.8%] bottom-3 w-[56.7px] h-[42.5px]'>
           <img src={star} className="w-full h-full"/>
           </div>
-          <div className='absolute right-2 bottom-[-65px] w-[77.05px] h-[94.74px]'>
+          <div className='absolute right-2 bottom-[-13.9%] w-[77.05px] h-[94.74px]'>
             <img src={star1} alt="star1"/>
         </div> 
        </div>

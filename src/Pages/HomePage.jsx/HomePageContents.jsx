@@ -4,6 +4,8 @@ import WhatWeOffer from "../WhatWeOffer/WhatWeOffer";
 import { motion } from "framer-motion";
 import Services from '../Services/Services';
 import WhatUsersSay from '../WhatUsersSay/WhatUsersSay';
+import InstallApp from '../InstallApp/InstallApp';
+import Footer from '../Footer/Footer';
 
 const HomePageContents = () => {
   return (
@@ -17,6 +19,8 @@ const HomePageContents = () => {
       <WhatWeOffer/>
       <Services/>
       <WhatUsersSay/>
+      <InstallApp/>
+      <Footer/>
     </motion.div>
   </>
   )
