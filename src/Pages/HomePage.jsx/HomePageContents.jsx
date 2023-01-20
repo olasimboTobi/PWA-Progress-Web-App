@@ -26,4 +26,4 @@ const HomePageContents = () => {
   )
 }
 
-export default HomePageContents
+export default HomePageContents;

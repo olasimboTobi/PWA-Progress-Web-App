@@ -33,6 +33,8 @@ const installData = [
 
 ]
 
+
+
 const InstallApp = () => {
   return (
     <motion.div

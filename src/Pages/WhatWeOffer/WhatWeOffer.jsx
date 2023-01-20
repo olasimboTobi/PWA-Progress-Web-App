@@ -32,6 +32,7 @@ const offerData = [
   
 ];
 
+
 const WhatWeOffer = () => {
 
   const elementOffer = offerData.map(data => (
@@ -43,6 +44,7 @@ const WhatWeOffer = () => {
       description2={data.description2}
       />
   ))
+
 
   return (
     <div className="flex w-full bg-[#F5F5F5] items-center  min-h-[465px] relative">
@@ -60,6 +62,3 @@ const WhatWeOffer = () => {
 }
 
 export default WhatWeOffer
-
-
-// sm:flex sm:flex-col sm:justify-center sm:items-between sm:gap-8 sm:w-[85%] sm:auto  sm:mt-8 sm:mb-8 sm:flex-wrap

@@ -5,6 +5,8 @@ import arrows from "../../Components/Assets/Offer/arrows.svg";
 import arrowsColor from "../../Components/Assets/Offer/arrowsColor.svg";
 import {BsArrowRightShort} from "react-icons/bs"
 
+
+
 const Card1 = ({id, title, description1, description2}) =>{
 
    return (
@@ -48,4 +50,3 @@ const Card1 = ({id, title, description1, description2}) =>{
 }
 
 export default Card1;
-

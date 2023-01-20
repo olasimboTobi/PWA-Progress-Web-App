@@ -34,6 +34,8 @@ const offerData = [
     
   ];
 
+
+
 const Services = () => {
 
     const elementOffer = offerData.map(data => (
@@ -45,6 +47,8 @@ const Services = () => {
           
           />
       ))
+
+
   return (
     <motion.div
       whileInView={{ y: [20, 0], opacity: [0, 1] }}
@@ -99,4 +103,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

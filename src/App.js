@@ -5,7 +5,7 @@ import Navbar from "./Components/Nav/Navbar";
 import HomePageContents from "./Pages/HomePage.jsx/HomePageContents";
 
 function App() {
-  // let navigate = useNavigate();
+ 
 
   return (
     <>
