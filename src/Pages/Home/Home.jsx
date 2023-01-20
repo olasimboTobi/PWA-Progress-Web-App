@@ -51,7 +51,7 @@ const Home = () => {
         className="pt-4 w-full px-8 grid place-items-center   "
       >
         <div className="flex flex-col w-[85%] items-between  md:flex-row  md:mt-20 md:gap-24 md:w-[88%] xl:flex-row xl:mt-20  lg:mt-12">
-          <section className="pt-10  w-[60%]">
+          <section className="pt-10 sm:w-[100%]  md:w-[60%]">
             <div>
               <div>
                 <h1 className="font-bold tracking-wide leading-relaxed  text-3xl md:text-5xl  md:leading-relaxed md:tracking-wide ">
@@ -76,21 +76,21 @@ const Home = () => {
               </button>
             </div>
           </section>
-          <section className="relative  w-[40%] flex lg:w-[45%] xl:[40%]">
-            <div className="flex mt-[-45px] md:mt-[-180px] lg:mt-[-45px]">
-              <img src={personimage} alt="home img" className=" w-[100%]  mt-[-105px]" />
+          <section className="relative  w-[100%]  flex lg:w-[45%] xl:[40%]">
+            <div className="flex mt-[-48px] md:mt-[-180px] lg:mt-[-45px]">
+              <img src={personimage} alt="home img" className=" mt-20 w-[100%] md:w-[100%]  md:mt-[-105px]" />
             </div>
-            <div className="absolute top-11 left-[-85px] md:top-36 md:left-[-48px] md:w-[62%] lg:w-[58%]  lg:top-28 lg:left-[-58px] xl:top-14 xl:left-[-85px] ">
-              <img src={dialogImg} alt="home img" className="h-full w-full   " />
+            <div className="absolute top-28  left-[-12px] md:top-36 md:left-[-48px] md:w-[62%] lg:w-[58%]  lg:top-28 lg:left-[-58px] xl:top-14 xl:left-[-85px] ">
+              <img src={dialogImg} alt="home img" className="w-[40%] md:h-full md:w-full   " />
             </div>  
-            <div className="absolute bottom-[105px] right-[18px] md:bottom-[435px] md:w-[60%] lg:bottom-[250px] xl:bottom-[105px] xl:right-[18px]">
-              <img src={transactImg} alt="home img" className="h-full w-full   " />
+            <div className="absolute bottom-[70px] right-[-58px] md:bottom-[435px] md:right-[-1px] md:w-[60%] lg:bottom-[250px] lg:right-[-5px] xl:bottom-[105px] xl:right-[18px]">
+              <img src={transactImg} alt="home img" className="w-[40%] md:h-full md:w-full   " />
             </div>   
-            <div className="absolute bottom-[-8px] md:bottom-[378px] md:w-[60%] lg:bottom-[160px] xl:bottom-[-8px]">
-              <img src={actionImg} alt="home img" className="h-full w-full   " />
+            <div className="absolute bottom-[-2px] md:bottom-[378px] md:w-[60%] lg:bottom-[160px] xl:bottom-[-8px]">
+              <img src={actionImg} alt="home img" className="w-[40%] md:h-full md:w-full  " />
             </div>  
           </section>
-          <button className=" block w-[200px] mt-24 border-2 border-[#F2921D] py-2 px-2 rounded-lg cursor-pointer bg-[#F2921D]  hover:bg-[transparent] hover:text-[#F2921D]  text-white duration-300 md:hidden md:mt-4 md:px-8">
+          <button className=" block w-[200px] whitespape-nowrap mt-24 border-2 border-[#F2921D] mb-12 py-2 px-2 rounded-lg cursor-pointer bg-[#F2921D]  hover:bg-[transparent] hover:text-[#F2921D]  text-white duration-300 md:hidden md:mt-4 md:px-8">
           <Link
               to="contact"
               smooth={true}

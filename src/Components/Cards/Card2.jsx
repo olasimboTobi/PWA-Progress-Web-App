@@ -18,7 +18,7 @@ import {BsArrowRightShort} from "react-icons/bs"
 const Card1 = ({id, title, description }) =>{
 
    return (
-    <div className="w-[42%]  mt-4 py-4  border-none rounded-lg">
+    <div className="w-[200px]  mt-8 py-4 sm:w-[200px]  sm:mt-12  sm:py-4 md:w-[255px]  md:mt-12  md:py-2 lg:w-[300px]  lg:mt-12 lg:py-4  xl:w-[420px]  xl:mt-4 xl:py-4 text-justify border-none rounded-lg">
         <div className="flex flex-col  items-center justify-start  w-[98%] mx-auto ">
             
             {title === "Fast Transaction" &&
@@ -84,8 +84,8 @@ const Card1 = ({id, title, description }) =>{
                 </div>
             </div>}
             
-            <p className="justify-self-start w-full text-[32px] text-center text-[#090931] font-bold mt-8">{title}</p>
-            <p className='justify-self-start w-full text-[24px] text-center font-medium text-[#777777] mt-8'>{description}</p>
+            <p className="justify-self-start w-full text-[17px] md:text-[20px] xl:text-[32px] text-center text-[#090931] font-bold mt-8">{title}</p>
+            <p className='justify-self-start w-full text-[12px]  md:text-[14px] lg:text-[16px] xl:text-[24px] text-center font-medium text-[#777777] mt-8'>{description}</p>
         </div>
         
     </div>

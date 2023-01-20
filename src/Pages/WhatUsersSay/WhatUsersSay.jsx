@@ -120,7 +120,7 @@ const WhatUsersSay = () => {
       key={1}
     >
         <div className='w-full h-[743px] pt-16 text-center bg-[#1C1D93] relative group'>
-            <div className="w-full h-[743px] absolute">
+            <div className="w-[100%] h-[100%] absolute">
                 <img className="w-full h-full object-cover " src={bgImg} alt="/" />
             </div>
             {/* <h2 className='text-white text-[32px] mb-8'>See what our users'<br/>say about us</h2>
